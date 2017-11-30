@@ -40,20 +40,20 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that you can construct OTHER than Circle and Point:
-#                d
+#                square and regular polygon
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #               (Hint: Use the circle from the example3 function below with the dot trick to let PyCharm help you. )
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                fff
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle objects have:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                X Y radius
 #
 #     f. What does a RoseWindow RENDER method do?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            renders objects that are listed
 #
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            closes automatically if its not there
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.

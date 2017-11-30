@@ -80,6 +80,9 @@ def main():
     turtle = rg.SimpleTurtle('square')
     draw_many_squares(turtle, 3, 75, 15)
     turtle3()
+    try_methods()
+    try_functions()
+    try_methods_and_functions()
 
     # When the TODOs ask you to test YOUR code, put YOUR tests here:
 
@@ -162,6 +165,11 @@ def turtle3():
 
 
 def try_methods():
+    whyamieventrying = rg.SimpleTurtle()
+    whyamieventrying.forward(150)
+    whyamieventrying.left(90)
+    whyamieventrying.forward(50)
+    whyamieventrying.backward(100)
     """
     Constructs a SimpleTurtle and sets its   pen   to a new rg.Pen
     that is 'brown' with thickness 5.
@@ -172,13 +180,16 @@ def try_methods():
       -- backward  100 units
     """
     ####################################################################
-    # TODO: 3. Implement this function, per its doc-string above.
+    # DONE: 3. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).
     ####################################################################
 
 
 def try_functions():
+    jump_and_move_turtle(200, 100, 300, 30)
+    jump_and_move_turtle(100, 200, 0, 0)
+    jump_and_move_turtle(-50,50, 100, 100)
     """
     Causes several SimpleTurtles to do the following:
      -- One jumps to (200, 100), then moves (while drawing) to (300, 30)
@@ -186,7 +197,7 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
     ####################################################################
-    # TODO: 4. Implement this function, per its doc-string above.
+    # DONE: 4. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).  IMPORTANT, IMPORTANT, IMPORTANT:
     #    Keep reading the rest of this TO DO before doing the above!
@@ -200,6 +211,20 @@ def try_functions():
 
 
 def try_methods_and_functions():
+    upat3am = rg.SimpleTurtle()
+    upat3am.backward(150)
+    upat3am.speed = 1
+    draw_many_squares(upat3am, 2, 100, 30)
+    upat3am.speed = 5
+    upat3am.pen = rg.Pen('red', 1)
+    draw_many_squares(upat3am, 10, 50, 15)
+    upat3am.speed = 100
+    upat3am.pen = rg.Pen('red', 35)
+    draw_many_squares(upat3am, 8, 300, 60)
+    upat3am.pen = rg.Pen('black', 3)
+    upat3am.backward(200)
+    upat3am.draw_circle(30)
+    upat3am.draw_square(50)
     """
     Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
     that is 'blue' with thickness 5.
@@ -232,7 +257,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ####################################################################
-    # TODO: 5. Implement this function, per its doc-string above.
+    # DONE: 5. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).  IMPORTANT, IMPORTANT, IMPORTANT:
     #    Keep reading the rest of this TO DO before doing the above!

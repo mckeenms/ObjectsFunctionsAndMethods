@@ -44,7 +44,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #               (Hint: Use the circle from the example3 function below with the dot trick to let PyCharm help you. )
-#                fff
+#                draw_circle x_cor y_cor
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle objects have:
 #                X Y radius
